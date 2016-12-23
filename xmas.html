@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Happy Holidays!</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://s3.amazonaws.com/codecademy-content/courses/holiday-cards/snowfall.min.js"></script>
+<script>
+$(document).ready(function() {
+    snowFall.snow($("section"), {
+        minSize: 1,
+        maxSize: 8,
+        round: true,
+        minSpeed: 1,
+        maxSpeed: 3,
+        flakeCount: 120
+    });
+});
+</script>
+    </head>
+    <body>
+        <section>
+            <h1>Merry Christmas!</h1>
+            <h2>May the spirit of Christmas bring you peace,</h2>
+            <h3>The gladness of Christmas give you hope,</h3>
+            <h4>The warmth of Christmas grant you love.</h4>
+            <img src="https://codecademy-content.s3.amazonaws.com/courses/web-beginner-en-9xjis/images/santa.png">
+        </section>
+    </body>
+</html>
