@@ -1,7 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Lobster);
-
 body {
-    background: darkslategray;
+    background: black;
 }
 
 section {
@@ -11,7 +9,7 @@ section {
     width: 700px;
     height: 500px;
     color: white;
-    font-family: Lobster;
+    font-family: 'Shift', sans-serif;
 }
 
 h1 {
